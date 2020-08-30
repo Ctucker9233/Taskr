@@ -4,7 +4,7 @@ var bcrypt = require("bcryptjs");
 module.exports = function(sequelize, DataTypes) {
   var Organization = sequelize.define("Organization", {
     // The email cannot be null, and must be a proper email before creation
-    name: {
+    company_name: {
       type: DataTypes.STRING,
       allowNull: false,
       unique: true
@@ -34,7 +34,7 @@ module.exports = function(sequelize, DataTypes) {
         allowNull: false,
         unique: false
     },
-    email: {
+    company_email: {
       type: DataTypes.STRING,
       allowNull: false,
       unique: true,
