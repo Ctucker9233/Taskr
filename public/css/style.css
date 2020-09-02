@@ -3,7 +3,7 @@ body {
 }
 
 .tasq-head {
-    margin: 10px;
+    margin: 20px;
     text-align: center;
 }
 
@@ -11,5 +11,13 @@ body {
     padding: 10px;
     color: #fff;
     background-color: #808080;
+    text-align: center;
+}
+
+.tasq-body {
+    text-align: center;
+}
+
+.tasq-list {
     text-align: center;
 }
